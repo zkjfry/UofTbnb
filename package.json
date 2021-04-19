@@ -1,0 +1,95 @@
+{
+  "name": "csc309-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.13.10",
+    "@datepicker-react/styled": "^2.8.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@stardust-ui/docs-components": "^0.40.0",
+    "@y0c/react-datepicker": "^1.0.4",
+    "axios": "^0.21.1",
+    "bcrpyt": "^2.0.0",
+    "bcrypt": "^3.0.8",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.6.0",
+    "browserify-fs": "^1.0.0",
+    "cloudinary": "^1.25.1",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-form-data": "^2.0.16",
+    "local": "^0.3.3",
+    "mini-create-react-context": "^0.3.3",
+    "mongod": "^2.0.0",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.4",
+    "node-pre-gyp": "^0.14.0",
+    "node-sass": "^4.14.1",
+    "npm-run": "^5.0.1",
+    "passport": "^0.4.1",
+    "path": "^0.12.7",
+    "pretty-checkbox": "^3.0.3",
+    "pretty-checkbox-react": "^1.1.0",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.5.2",
+    "react-burger-menu": "^2.9.2",
+    "react-calendar": "^2.19.2",
+    "react-cookie": "^4.0.3",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-datepicker": "^2.16.0",
+    "react-dom": "^16.14.0",
+    "react-dropdown": "^1.9.2",
+    "react-gaussian-blur": "^1.0.6",
+    "react-horizontal-scrolling-menu": "^0.7.10",
+    "react-image-resizer": "^1.3.0",
+    "react-onclickoutside": "^6.10.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.2.0",
+    "react-star-ratings": "^2.3.0",
+    "react-stepper-horizontal": "^1.0.11",
+    "reactstrap": "^8.9.0",
+    "sha256": "^0.2.0",
+    "tiny-invariant": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "mongoose.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csc309-fall-2019/team48.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csc309-fall-2019/team48/issues"
+  },
+  "homepage": "https://github.com/csc309-fall-2019/team48#readme",
+  "proxy": "http://localhost:5000"
+}

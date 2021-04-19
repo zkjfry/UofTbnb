@@ -1,0 +1,89 @@
+Phase 1 code walkthrough:
+First, we need to clone the git repo from github to our own local computer. 
+After we've done that, we open command line, and change the directory to the directory of our git repo. 
+Now, type 'npm install' in the command line without the quotation marks. This will include all of the features required to run 
+this website. 
+When we finally see the command line finishing installing, we can type 'npm start' (again, without the quotation marks) to start 
+running the website. 
+Wait for the app to compile, and once it finishes compile, it will automatically opens a new window in your default web browser, 
+which should be google chrome. 
+The website address should be 'localhost:3000', representing the port on which our website is running. 
+Now we should see the sign in page. According to the handout, we can only use the following set of user credentials:
+For admin, the credentials are:
+Username: admin
+Password: admin
+For users, the credentials are:
+Username: user
+Password: user
+If you are an admin, after successfully login, you will be led to the admin page.
+The admin page is a dashboard that allows the admin to perform the following three actions:
+1. Approve/Reject the incoming house listing request from landlords
+2. See all the listing houses, and if the admins are not satisfy with the condition of a house, they can cancel the listing.
+3. Approve/Reject the incoming roommate request from users.
+On the top-left corner, there is an expand icon. When you click on that icon, a side bar will show up and allows you to switch between these
+functionalities.
+
+If you are a user, after successfully login, you will be led to the main page.
+If we don't enter the above username and password, we will have an alert. 
+
+We do have a sign up page, and the yellow sign up button on the top right corner will direct us to the sign up page. Once we fill out the 
+required username, password, and name of the user, we will be redirected to the login page again, and now we can login using the new 
+username and password. 
+
+So back to the mainpage for users. Now we can see a lot of features. Because most of our users will be tenants looking for houses/apartments to rent, 
+our default mainpage will be the tenant page. 
+If you click the 'tenant' button at the top, it will direct us to the same page as the one we are currently on. On the left side of the 
+navigation bar at the top, we can see a search bar. 
+The function of the search bar is not implemented yet, but it should help the user search specific houses. 
+Going to the right side of the nav bar, we can see several options. The landlord button will direct us to the landlord page, and the 
+roommate button will direct us to the roommate page. These 2 we will talk about later. 
+If we click the sign out button, we will sign out, and go back to the login page we saw at the start. 
+To the right of the signout page, we can see the user, admin, and an arrow sign. Usually an arrow sign beside the user represents a 
+hidden menu bar, most likely related to the user profile, and that is exactly what we have here. 
+Once we click on the arrow button, a menu will pop out, with 3 options: Profile, favourites, and signout. Both profile and favourites 
+are linked to the user profile, as users' favourite houses are stored in the profile as well. We have 2 buttons here because just in 
+case our user doesn't know where the favourites are, it will be more visible to first time users. We will look at the profile page 
+in detail later. 
+Underneath the navbar we see a set of different locations. Clicking on them should help us filter the houses, which will be implemented
+next phase. 
+Then we see categories, locations, prices, and duration of stay on the left hand side underneath. Again, these filter functions will be
+implemented next phase. 
+The cards on the right represents the actual houses on rent. Clicking on the houses will have a side bar popping out, giving us a 
+general description of the house. At the bottom of the description we have a button to direct us to a more detailed info of the house. 
+We can also click on the little heart button at the bottom right corner of the card to add it to user's favourite, a function to be 
+implemented. For now, every card will link to the same house detail page, this is because we only have one set of dummy data for now,
+but we will change this in phase 2.
+At the very bottom of the page, we can find a pagination bar as well, but it's function is not implemented. 
+Now we've finished inspecting the tenant page, let's move on to landlord page. 
+By clicking the landlord button at the top, we will be given a form. The form asks us for all kinds of information that will be 
+displayed on website. At any time if you need to leave the computer, you can exit the page by clicking the 'back to mainpage' button
+at the bottom. Otherwise, we will have a submit button at the last step of this form. Clicking that will prompt us with a notification
+bar, and we can click the return to main page to, well, return to main page. 
+One note would be: if you press the back to mainpage button, the info that you have already entered will not stay 
+there, and you will need to type it in again next time you enter the landlord page. 
+Now with landlord page being done, we can access the roommate page via mainpage navbar. The same navbar and location bar appears, but 
+we have a whole new filter on the left hand side. Gender, age, location, pet friendliness, smoking habits, all the standards you will
+need to find a perfect roommate is there. If these are not enough, at the very bottom, we have even more filters. The search button is
+malfunctioning at this time, but won't stay like that for too long. 
+The general info on roommates will be displayed in card forms as well, on the right hand side. We can click on the view detail button
+on the card for further details. For phase 1, even though we have different cards representing different roommate candidates, this button
+will always link to the detail of Jinda Huang, as we only have one set of dummy data. 
+Again, we see the page numbers at the bottom. 
+Then we are done with the roommate page. We can take a look at the user profile page next. Clicking the arrow sign to open the menu, 
+and click profile. 
+Here, we can see the navbar still appears at the top. This is designed like this so user can access any page from their profile. 
+We can see the name of the user at the top, a profile picture that can be changed, and some information on the user. 
+The change profile picture button will be implemented next phase. 
+In the user info, we can see our account details, with our username, admin, and password coded for security reasons. 
+We identify both tenants and landlords as users, as a user can be both looking for a house and renting an apartment. Hence, we can see
+ratings of such user in both tenant aspect and landlord aspect. The change password page is like the sign in page, where we would ask
+for the username, see it it's an existing user, and check the password. If there 2 are correct, then we ask for a new password different
+from the old one, and ask for retyping the password expecting to see matching passwords. Submitting takes us back to the profile page. 
+Underneath we can see in the tenant section, the favourite houses, the currently renting house(s), and the history of rented houses. 
+Clicking next will move us to the next house until the last one, at which our next button will be disabled. Same applies to the prev 
+button, but it is disabled at the start.
+In addition to the view detail button that takes us to the detailed house info page we showed before, we have a write review button
+for any houses in the renting history. 
+As for landlords, they can update info for their houses on rent, and they can also write reviews for tenants that rented their houses in
+the past. 
+Hence we have shown all the pages for phase 1. 
