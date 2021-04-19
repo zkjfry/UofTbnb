@@ -1,0 +1,84 @@
+body, html {
+    height: 100%;
+    }
+  .background {
+    background-image: url(shenzhen.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #login-form {
+    width: 400px;
+    height: 350px;
+    left:35%;
+    padding-top: 50px;
+    top: 20%;
+    padding-bottom: 50px;
+    position: absolute;
+  }
+  
+  #signup-form {
+    width: 400px;
+    height: 350px;
+    left:35%;
+    padding-top: 50px;
+    top: 20%;
+    padding-bottom: 50px;
+    position: absolute;
+  }
+  
+  
+  #login-image-group{
+    max-width: 200px;
+    max-height: 200px;
+  }
+  
+  .badge-pill{
+    float: right;
+  }
+  
+  .black-font{
+    color: black;
+  }
+  
+  .override.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #63c1cf;
+    border-color: #63c1cf;
+  }
+  
+  .White{
+    color: white
+  }
+  
+  .SignUpButton {
+    width: 120px;
+    height: 50px;
+    top: 20%;
+    left: 80%;
+    position: absolute;
+  }
+  
+  .Landlord{
+    width: 200px;
+    height: 50px;
+    top: 10%;
+    left: 80%;
+    position: absolute;
+    
+  }
+  
+  .login-form{
+    margin-left: 500px;
+  }
+  .signupbackground {
+    background-image: url(signupbackground.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  

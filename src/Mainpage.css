@@ -1,0 +1,328 @@
+body, html {
+  height: 100%;
+  }
+.background {
+  background-image: url(shenzhen.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#pagenumber {
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+}
+
+/* #cal1{
+  width:30px
+}
+#cal2{
+  width: 30px;
+}
+
+#calendar1{
+  width:30px;
+  float: left;
+}
+#calendar2{
+  width: 30px;
+  display: inline-block;
+} */
+
+#login-form {
+  width: 400px;
+  height: 350px;
+  left:35%;
+  padding-top: 50px;
+  top: 30%;
+  padding-bottom: 50px;
+  position: absolute;
+}
+
+#Previous_top{
+  margin-left:720px;
+}
+
+
+#login-image-group{
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.badge-pill{
+  float: right;
+}
+
+.black-font{
+  color: black;
+}
+
+.White{
+  color: white
+}
+
+.top_rated_house{
+  height: 240px;
+  width:  500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-control-prev{
+  margin-left: 2%;
+  color:black;
+  display: block;
+  margin-top: 30%;
+}
+
+.carousel-control-next{
+  margin-top: 30%;
+  color:black;
+  display: block;
+  margin-right: 2%;
+}
+
+.housing{
+  display: inline-block;
+  width:50%
+}
+#Carosel{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.square-img{
+  padding:0px !important;
+  flex-direction: column !important;
+}
+
+.round{
+  border-radius: 1rem !important;
+}
+.full-pic{
+  border-top-left-radius: 1rem !important;
+  border-top-right-radius: 1rem !important;
+  height:80%
+}
+.place{
+  font-size: 10px;
+  text-align: center;
+  margin-top:10%
+}
+
+.sidebar-carosel{
+  width: 100%;
+  height:250px;
+}
+
+#filter_search{
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+}
+
+#detail-sidebar{
+  margin:auto;
+  margin-top:6%;
+  width:50%
+}
+.card {
+  border: 3px #f3f3f3 solid;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s linear;
+  cursor: pointer;
+  background-color: #f3f3f3;;
+  padding: 10px;
+  text-align: left;
+  margin-top: 10px;
+  flex-direction: row;
+}
+
+.card-body{
+  padding: 0;
+}
+#margin-lef{
+  margin-left:30%
+}
+#housing-info{
+  width:20%;
+  margin-left:2%;
+  margin-top:2% !important;
+  /* float: left; */
+  display: inline-block;
+}
+
+#precise-housing-info{
+  width:75%;
+  margin-top:4%;
+  margin-left: 2%;
+  vertical-align:top;
+  display: inline-block;
+}
+
+.precise-info{
+  width: 90%;
+}
+
+.image-container{
+  width:45%;
+  display:inline-block;
+}
+
+.general-info{
+  display: inline-block;
+  width:50%;
+  margin-left: 2%;
+  font-weight: bold;
+}
+
+img.card-img-top.detailed-pic{
+  width:100%;
+  height:200px;
+}
+
+.house-accessory{
+    display: inline-block;
+    width:50%
+}
+
+.price{
+  margin:0px;
+  font-style:italic;
+}
+
+#pagewrap{
+  margin-bottom: 10px;
+}
+
+#page{
+  margin:auto;
+
+  width:30%;
+}
+
+#message-income{
+  margin-left:6%
+}
+
+
+#about{
+  width: 100%;
+}
+
+.info{
+  text-align: center;
+  font-weight: bold;
+}
+.Next_top{
+  margin-left: 730px;
+}
+
+#prof-name{
+  display: inline-block;
+  margin-left: 5%;
+}
+#nav-pic{
+  border-radius: 50%;
+}
+#profile-pic{
+  width: 30%;
+  border-radius: 50%;
+}
+#profile-pic-contain{
+  width:140%;
+  border-radius: 50%;
+}
+
+
+#bottom-space{
+  height:30px;
+}
+
+.profile-infos{
+  margin-left: 3%;
+  font-size: 24px;
+  display:inline-block;
+  font-family: 'Segoe UI';
+  color:#999999
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+#message_num{
+  margin-left:4px;
+}
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+}
+
+/* General sidebar styles */
+.bm-menu {
+
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+#user-name{
+  font-weight: bold;
+}
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+#current-user{
+  margin-left: 2%;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+#nav-bar{
+  margin-left:40%
+}
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}

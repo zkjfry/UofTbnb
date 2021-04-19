@@ -1,0 +1,89 @@
+.housepic{
+    width:250px;
+    height:200px;
+}
+
+.act {
+    width:250px;
+    height:200px;
+    border-style: solid;
+    border-color: blue;
+}
+
+#info_back_button{
+    height: 60px;
+    width: 280px;
+    left: 70%;
+    top: 20%;
+    position: absolute;
+}
+
+.houseinfocontainer{
+    top: 10%;
+    left: 5%;
+    position: absolute;
+}
+
+.houseBigpic{
+    height: 600px;
+    width: 800px;
+}
+
+.timelineHeader {
+	border-bottom: 1px solid grey;
+}
+
+.request.card{
+    margin-top: 5rem;
+}
+
+.review {
+	background-color: white;
+	min-height: 100px;
+	overflow: auto;
+	border-bottom: 1px solid grey;
+}
+
+.reviewIconContainer {
+	width: 80px;
+}
+
+.reviewIcon {
+
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+
+}
+
+.reviewContent {
+	margin: 0px;
+	width: 520px;
+	float: left;
+}
+
+#requestcard {
+    height: 380px;
+    width: 400px;
+    top: 80%;
+    left: 60%;
+    position: absolute;   
+    flex-direction: column !important;
+}
+
+#reserve_button{
+    display: block;
+}
+
+.grey {
+	color: grey;
+}
+
+
+.hashtag {
+	color: #5088e9;
+}

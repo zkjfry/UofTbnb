@@ -1,0 +1,78 @@
+.houseimage{
+    left: 10%;
+    top: 10%;
+    height: 500px;
+    width: 500px;
+    display:inline-block;
+  }
+
+.housepic{
+    width:250px;
+    height:200px;
+}
+
+.userinfocontainer{
+    width: 100%;
+    top: 15%;
+    left: 5%;
+    position: absolute;
+}
+
+.time{
+    left: 70%;
+    top: 30%;
+    position: absolute;
+}
+
+.name{
+    font-style: oblique;
+}
+
+.rating{
+    color: rgb(56, 46, 110);
+}
+
+.info{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.timelineHeader {
+	border-bottom: 1px solid grey;
+}
+
+.request {
+    height: 320px;
+    width: 330px;
+    top: 110%;
+    left: 60%;
+    position: absolute;   
+}
+
+#apply_button{
+    height: 60px;
+    width: 300px;
+    left: 70%;
+    top: 45%;
+    position: absolute;
+}
+
+.grey {
+	color: grey;
+}
+
+
+.hashtag {
+	color: #5088e9;
+}
+
+#request {
+    height: 230px;
+    width: 400px;
+    top: 40%;
+    left: 60%;
+    position: absolute;   
+    flex-direction: column !important;
+}
+#reserve_button{
+    display: block;
+}

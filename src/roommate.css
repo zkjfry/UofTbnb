@@ -1,0 +1,75 @@
+#Carosel{
+width: 85%;
+margin: 0 auto;
+}
+
+.square-img{
+padding:0px !important;
+flex-direction: column !important;
+}
+
+.round{
+border-radius: 1rem !important;
+}
+
+.full-pic{
+border-top-left-radius: 1rem !important;
+border-top-right-radius: 1rem !important;
+height:80%
+}
+
+
+.place{
+font-size: 10px;
+text-align: center;
+margin-top:10%
+}
+
+
+.margin-lef{
+    margin-left:4%
+}
+
+#more-filters{
+    margin-top:20%
+}
+.smoke-margin-lef{
+    margin-left:10%
+}
+.pets-margin{
+    margin-left: 60%;
+}
+#smoke-free{
+    margin-top:1.4%
+}
+.info{
+font-weight: bold;
+}
+#page-for-room{
+        width:30%;
+  }
+
+
+#filter-button{
+    display: block;
+    margin: 0 auto;
+}
+#roommate-info-button{
+    margin-bottom: 2%;
+}
+#pets{
+    font-weight: bold;
+    margin-bottom: 16px;
+    display: inline-block;
+    width:100%
+}
+#icon-container{
+    display: inline-block;
+}
+#housing-info{
+    width:20%;
+    margin-left:2%;
+    margin-top:2% !important;
+    /* float: left; */
+    display: inline-block;
+  }

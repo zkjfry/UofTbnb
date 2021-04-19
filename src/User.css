@@ -1,0 +1,128 @@
+.ProfilePic{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+.changePicButton{
+  display: inline;
+}
+
+.profile{
+  margin-bottom: 4%;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.03);
+}
+
+.Profile-Picture{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin-left: 15%;
+}
+
+.Profile-Info{
+  float: right;
+  margin-top: 1%;
+  margin-right: 15%;
+  padding: 30px;
+  height: 150px;
+  width: 500px;
+}
+
+.userInfo{
+  float: left;
+}
+
+.EditButton{
+  padding: 10px;
+  border-radius: 25px;
+  float: right;
+  left: 20%;
+}
+
+.info{
+  display: inline-block;
+}
+
+.headings_1{
+  margin-left: 26%;
+  text-align: center;
+  color: darkred;
+  text-shadow: 3px 4px 8px rgb(226, 105, 105);
+  display: inline-block;
+}
+
+#change-picture{
+  margin-top:3%;
+}
+
+.headings_2{
+  margin-left: 24%;
+  text-align: center;
+  color: darkred;
+  text-shadow: 3px 4px 8px rgb(226, 105, 105);
+  display: inline-block;
+}
+
+.headings_3{
+  margin-left: 35%;
+  text-align: center;
+  color: darkred;
+  text-shadow: 3px 4px 8px rgb(226, 105, 105);
+  display: inline-block;
+}
+
+.headings_4{
+  margin-left: 25%;
+  text-align: center;
+  color: darkred;
+  text-shadow: 3px 4px 8px rgb(226, 105, 105);
+  display: inline-block;
+}
+
+.headings_5{
+  margin-left: 41%;
+  text-align: center;
+  color: darkred;
+  text-shadow: 3px 4px 8px rgb(226, 105, 105);
+  display: inline-block;
+}
+
+.heading{
+  margin-top: 2%;
+  margin-left: 4%;
+  display: inline-block
+}
+
+.cardDeck{
+  height: 50rem;
+}
+
+.cardDeck_2{
+  height: 48rem;
+}
+
+
+.request_col{
+  margin-top: 5%;
+}
+
+
+.request_card{
+  margin-top: 50px;
+}
+
+.request_card.card{
+  flex-direction: column;
+  min-height: 150px;
+  height: 105%
+}
+
+.houseInfo-Button{
+  right: 1%;
+  bottom: 1%;
+  position: absolute;
+}
